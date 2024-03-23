@@ -1,3 +1,7 @@
-books_codes = [14,15,16,17,18,19,20]
-total_codes = sum(books_codes)
-print(f"Sum of book codes : {total_codes}")
+#Normal  Adding
+nomAdd = sum(codes)
+print("Normal sum : ",nomAdd)
+
+#List Adding
+listAdd = sum(i for i in codes)
+print("List Add Sum : ",listAdd)
